@@ -53,7 +53,22 @@ langToggle.js # Optional language toggle for secondary page
 .eslintrc / eslint.config.mjs
 package.json
 
-Creative addtion using Javascript
+✨ Creative Addition (JavaScript): One-Button EN/中文 Toggle
+
+What it is
+A single floating button that switches all visible text between English and Chinese instantly, 
+and remembers the choice with localStorage. Implemented with vanilla ES modules; accessible and
+keyboard-friendly.
+
+Why it matters
+Broadens audience beyond English speakers (friends, peers, recruiters from China).
+Zero page reload, tiny footprint, and no framework needed.
+
+UX & Accessibility
+Real <button> with aria-pressed and a visible focus ring.
+Works with mouse, touch, and keyboard.
+Persists language across visits via localStorage('lang').
+Graceful fallback: if JS is off, default language content stays visible.
 
 🚀 How to Install / Use
 
@@ -124,19 +139,18 @@ https://gideonccc.github.io/Shaobo_Homepage/(update with your real URL)
 🎓 Class Reference
 
 CS5610 Web Development — Northeastern University
-Class link: [https://example.edu/your-class-link](https://johnguerra.co/classes/webDevelopment_online_fall_2025/)
+Class link: [CS5610](https://johnguerra.co/classes/webDevelopment_online_fall_2025/)
 
 
 🤖 AI-Generated Content Disclosure
-
-At least one element of this project was created with assistance from an AI tool (ChatGPT).
+AI tool (ChatGPT-5)
 Item: Alternate “Showcase” page layout (showcase.html) and hero stats styles in styles/main.css.
 Original prompt (excerpt):
-
 “Act as a senior full-stack web engineer/editor and build a third page (showcase.html) that reuses exactly the same content as my homepage (About, Motto, Education, Experience, Projects, Skillset) but presents it in a distinct, recruiter-focused layout (e.g., hero + brief value prop + stats, projects first, combined education/experience timeline, simple skills grid). Use HTML5, CSS3, Bootstrap 5.3 (CDN), and vanilla JS with ES modules (<script type="module" src="./js/main.js"></script>). Add styles to styles/main.css scoped under .showcase; no inline styles or !important. Keep it semantic, accessible (meaningful alt, keyboardable), responsive, and fast.”
 
-(You can list additional AI-assisted items, such as English translations for photo captions or the colorful badge CSS.)
+Item: Colorful project card design - palette selection, gradient/solid variants, and CSS rules for .showcase .card (including hover/focus states) in styles/main.css.
+prompt:
+"Design the project cards to be colorful, using a consistent palette with gradient or solid options. Add simple hover and focus states that improve readability."
 
 📄 License
-
-(Optional — add MIT or your choice if you want others to reuse your template.)
+This project is licensed under the [MIT License](LICENSE) — you are free to use, modify, and distribute this project in accordance with the terms of the license.
