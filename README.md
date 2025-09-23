@@ -105,13 +105,6 @@ Then open http://localhost:5173 (or the URL shown by your server).
    npm run lint
    npm run lint:fix
 
-🌐 Deploy (GitHub Pages)
-
-Push this repo to GitHub. Ensure index.html is at the repo root.
-
-Settings → Pages → Source: “Deploy from a branch” · Branch: main · Folder: /
-
-Your site will be at: https://gideonccc.github.io/Shaobo_Homepage/
 
 
 
