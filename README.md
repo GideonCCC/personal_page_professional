@@ -64,25 +64,25 @@ Creative addtion using Javascript
 2. (Optional) Install dev tools for linting
    npm install
 
-# if package.json not present, run:
+if package.json not present, run:
 
-# npm init -y && npm i -D eslint @eslint/js globals && npm pkg set type=module
+npm init -y && npm i -D eslint @eslint/js globals && npm pkg set type=module
 
 3. Run locally (use a local server for ES modules)
 
 Any of these works:
 
-# Python
+Python
 
 python3 -m http.server 5173
 
-# Node (serve)
+Node (serve)
 
 npx serve .
 
-# VS Code
+VS Code
 
-# Use the "Live Server" extension and open index.html
+Use the "Live Server" extension and open index.html
 
 Then open http://localhost:5173 (or the URL shown by your server).
 
@@ -96,7 +96,7 @@ Push this repo to GitHub. Ensure index.html is at the repo root.
 
 Settings → Pages → Source: “Deploy from a branch” · Branch: main · Folder: /
 
-Your site will be at: https://<your-username>.github.io/<repo-name>/
+Your site will be at: https://gideonccc.github.io/Shaobo_Homepage/
 
 (For a profile site, name the repo <your-username>.github.io> to get https://<your-username>.github.io/.)
 
