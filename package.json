@@ -1,0 +1,23 @@
+{
+  "name": "project01_homepage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "types": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "keywords": [],
+  "author": "Shaobo Chen",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@eslint/js": "^9.36.0",
+    "eslint": "^9.36.0",
+    "eslint-config-prettier": "^10.1.8",
+    "globals": "^16.4.0",
+    "prettier": "^3.6.2"
+  }
+}

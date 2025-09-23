@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Shaobo Chen Homepage</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <!-- Top header centered -->
+    <header class="bg-body py-3 border-bottom text-center">
+      <div class="container">
+        <h1 class="fs-2 fw-semibold lh-1 m-0">Shaobo Chen</h1>
+      </div>
+    </header>
+
+    <!-- Centered navbar (brand + links) -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
+      <div class="container d-flex flex-column align-items-center">
+        <button
+          class="navbar-toggler mb-2"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav text-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="secondary.html">Another me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="showcase.html">Showcase</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Banner (12:3) -->
+    <div class="container-fluid px-0">
+      <div class="ratio banner-12-3">
+        <img
+          src="images/AIG01.png"
+          alt="Site banner"
+          class="w-100 h-100 banner-cover"
+          loading="eager"
+          decoding="async"
+        />
+      </div>
+    </div>
+
+    <div class="container my-4">
+      <div class="row g-4 align-items-start">
+        <!-- 8 -->
+        <main class="col-12 col-lg-8 overlap-card overlap-3-lines">
+          <h2 class="h4">About me</h2>
+          <p>
+            Master’s student in Computer & Information Science at Northeastern,
+            with a business undergrad from Northeastern. Former Data Analyst
+            Intern at Yidu Cloud (RWE: market tracking, prescribing behavior,
+            clinical data pipelines). Built a MySQL data mart and automated
+            reporting for a sales integration project. Skills: Python, SQL, R,
+            plus mobile dev and cloud deployment.
+          </p>
+          <h2 class="h4">Motto</h2>
+          <figure class="motto">
+            <blockquote class="mb-1">
+              <p class="mb-0">
+                “When you're playing the point, it has to be the most important
+                thing in the world. And when it's behind you, it's behind you.”
+              </p>
+            </blockquote>
+            <figcaption class="blockquote-footer text-end mb-0">
+              Roger Federer
+            </figcaption>
+          </figure>
+
+          <section class="edu mt-4">
+            <h2 class="h4 mb-3">Education</h2>
+
+            <ul class="list-unstyled edu-list m-0">
+              <!-- High School -->
+              <li class="edu-item">
+                <button
+                  type="button"
+                  class="edu-name"
+                  aria-expanded="false"
+                  aria-controls="edu-hs"
+                >
+                  No. 2 High School of East China Normal University
+                </button>
+                <div
+                  id="edu-hs"
+                  class="edu-panel"
+                  role="region"
+                  aria-label="ECNU Second High School details"
+                >
+                  <div class="edu-meta">High School · Shanghai, China</div>
+                  <ul class="edu-bullets">
+                    <li>Graduated: 2017</li>
+                    <li>
+                      Activities / Honors:
+                      <ul class="edu-subbullets ms-3">
+                        <li>BIG12 BMW Cup Basketball League — Runner-up</li>
+                        <li>Campus Singing Competition — 2nd Place</li>
+                        <li>Tennis Club - Team Leader</li>
+                        <li>Outstanding Graduate</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <!-- Northeastern — Bachelor -->
+              <li class="edu-item">
+                <button
+                  type="button"
+                  class="edu-name"
+                  aria-expanded="false"
+                  aria-controls="edu-neu-bs"
+                >
+                  Northeastern University — B.S. in Business Administration
+                </button>
+                <div
+                  id="edu-neu-bs"
+                  class="edu-panel"
+                  role="region"
+                  aria-label="Northeastern University undergraduate details"
+                >
+                  <div class="edu-meta">Boston, MA · GPA: 3.62</div>
+                  <ul class="edu-bullets">
+                    <li>
+                      Concentrations: Business Administration & Entrepreneurship
+                    </li>
+                    <li>
+                      Main Courses:
+                      <ul class="edu-subbullets ms-3">
+                        <li>Management Consulting in Organizations</li>
+                        <li>Managing Human Capital</li>
+                        <li>Understand Family Enterprise</li>
+                        <li>Entrepreneurship Seminar</li>
+                        <li>Marketing Strategies for Startups</li>
+                        <li>Health Care Management, Innovation, and Design</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <!-- Northeastern — Master -->
+              <li class="edu-item">
+                <button
+                  type="button"
+                  class="edu-name"
+                  aria-expanded="false"
+                  aria-controls="edu-neu-ms"
+                >
+                  Northeastern University — M.S. in Computer & Information
+                  Science
+                </button>
+                <div
+                  id="edu-neu-ms"
+                  class="edu-panel"
+                  role="region"
+                  aria-label="Northeastern University graduate details"
+                >
+                  <div class="edu-meta">Boston, MA · GPA: 4.0</div>
+                  <ul class="edu-bullets">
+                    <li>Focus: Software Programming & Data Analytics</li>
+                    <li>
+                      Main Courses:
+                      <ul class="edu-subbullets ms-3">
+                        <li>Algorithms</li>
+                        <li>Website Development</li>
+                        <li>Data Science Management Systems</li>
+                        <li>Mobile Application Development</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <section class="exp mt-4">
+            <h2 class="h4 mb-3">Experience</h2>
+
+            <ul class="list-unstyled exp-list m-0">
+              <!-- JG Baffo -->
+              <li class="exp-item">
+                <button
+                  type="button"
+                  class="exp-name"
+                  aria-expanded="false"
+                  aria-controls="exp-jgbaffo"
+                >
+                  JG Baffo — CPA Firm
+                </button>
+                <div
+                  id="exp-jgbaffo"
+                  class="exp-panel"
+                  role="region"
+                  aria-label="JG Baffo details"
+                >
+                  <div class="exp-meta">
+                    Accountant Assistant · Boston, MA · Jan–Apr 2020
+                  </div>
+                  <ul class="exp-bullets">
+                    <li>
+                      Reconciled client accounting records and filed tax returns
+                      using CCH ProFx.
+                    </li>
+                    <li>
+                      Prepared draft returns for 40+ clients—including S-Corps,
+                      Partnerships, and Individuals—and advised on business
+                      structures and tax planning in CCH ProFx.
+                    </li>
+                    <li>
+                      Delivered monthly bookkeeping in QuickBooks: financial
+                      statements, transaction categorization, invoice/payment
+                      reconciliation, and recurring tasks.
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <!-- Smith & Nephew -->
+              <li class="exp-item">
+                <button
+                  type="button"
+                  class="exp-name"
+                  aria-expanded="false"
+                  aria-controls="exp-snn"
+                >
+                  Smith & Nephew — Medical Equipment Firm
+                </button>
+                <div
+                  id="exp-snn"
+                  class="exp-panel"
+                  role="region"
+                  aria-label="Smith & Nephew details"
+                >
+                  <div class="exp-meta">
+                    Human Resource Intern · Shanghai, China · Jul–Dec 2021
+                  </div>
+                  <ul class="exp-bullets">
+                    <li>
+                      Coordinated the Fall 2021 campus recruitment program,
+                      hiring 40+ interns (job sculpting, sourcing, process
+                      refinement, email templates, talent assessments).
+                    </li>
+                    <li>
+                      Streamlined onboarding and facilitated induction training
+                      to support smooth transitions.
+                    </li>
+                    <li>
+                      Led an optimization project that reduced pre-onboarding
+                      time from 3 months to 1 month and cut manual data-entry
+                      errors by leveraging Workday.
+                    </li>
+                    <li>
+                      Re-designed the recruitment process to address high
+                      pandemic-period turnover.
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <!-- Yidu Cloud Technology -->
+              <li class="exp-item">
+                <button
+                  type="button"
+                  class="exp-name"
+                  aria-expanded="false"
+                  aria-controls="exp-yidu"
+                >
+                  Yidu Cloud Technology — Healthcare Big Data Firm
+                </button>
+                <div
+                  id="exp-yidu"
+                  class="exp-panel"
+                  role="region"
+                  aria-label="Yidu Cloud Technology details"
+                >
+                  <div class="exp-meta">
+                    Data Analysis Intern, Real-World Evidence Dept. · Shanghai,
+                    China · May–Jul 2025
+                  </div>
+                  <ul class="exp-bullets">
+                    <li>
+                      Conducted product-tracking research for marketed drugs
+                      (brand performance across awareness, key-message recall,
+                      market-visit frequency); analyzed HCP prescribing
+                      behaviors, drivers, and barriers.
+                    </li>
+                    <li>
+                      Studied pharmacological/clinical concepts to support
+                      real-world data work; translated medical guidelines into
+                      structured rules for screening and inclusion/exclusion
+                      funnels.
+                    </li>
+                    <li>
+                      Co-designed data-filtering logic aligned with sponsor
+                      requirements to ensure clinically valid cohort selection.
+                    </li>
+                    <li>
+                      Processed and visualized thousands of raw records to
+                      surface insights supporting product strategy and
+                      optimizing plans for 5+ marketed products.
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </main>
+
+        <!-- 4 -->
+        <aside class="col-12 col-lg-4">
+          <div class="p-3 border-0 rounded-3">
+            <div class="card shadow-sm skillset">
+              <div class="card-body">
+                <h3 class="h5 card-title mb-3">Skillset</h3>
+
+                <ul class="list-unstyled skills-list m-0">
+                  <li class="skills-item">
+                    <button
+                      type="button"
+                      class="skills-name"
+                      aria-expanded="false"
+                      aria-controls="skills-general"
+                    >
+                      General
+                    </button>
+                    <ul
+                      id="skills-general"
+                      class="skills-sublist"
+                      role="region"
+                      aria-label="General tools"
+                    >
+                      <li>MS Word</li>
+                      <li>PowerPoint</li>
+                      <li>Excel</li>
+                      <li>Tableau</li>
+                    </ul>
+                  </li>
+
+                  <li class="skills-item">
+                    <button
+                      type="button"
+                      class="skills-name"
+                      aria-expanded="false"
+                      aria-controls="skills-accounting"
+                    >
+                      Accounting
+                    </button>
+                    <ul
+                      id="skills-accounting"
+                      class="skills-sublist"
+                      role="region"
+                      aria-label="Accounting tools"
+                    >
+                      <li>QuickBooks</li>
+                      <li>CCH ProFx</li>
+                    </ul>
+                  </li>
+
+                  <li class="skills-item">
+                    <button
+                      type="button"
+                      class="skills-name"
+                      aria-expanded="false"
+                      aria-controls="skills-hr"
+                    >
+                      Human Resources
+                    </button>
+                    <ul
+                      id="skills-hr"
+                      class="skills-sublist"
+                      role="region"
+                      aria-label="HR tools"
+                    >
+                      <li>Workday</li>
+                    </ul>
+                  </li>
+
+                  <li class="skills-item">
+                    <button
+                      type="button"
+                      class="skills-name"
+                      aria-expanded="false"
+                      aria-controls="skills-ds"
+                    >
+                      Data Science
+                    </button>
+                    <ul
+                      id="skills-ds"
+                      class="skills-sublist"
+                      role="region"
+                      aria-label="Data Science tools"
+                    >
+                      <li>R</li>
+                      <li>SQL</li>
+                    </ul>
+                  </li>
+
+                  <li class="skills-item">
+                    <button
+                      type="button"
+                      class="skills-name"
+                      aria-expanded="false"
+                      aria-controls="skills-cs"
+                    >
+                      Computer Science
+                    </button>
+                    <ul
+                      id="skills-cs"
+                      class="skills-sublist"
+                      role="region"
+                      aria-label="CS tools"
+                    >
+                      <li>Python</li>
+                      <li>Java</li>
+                      <li>C++</li>
+                      <li>JavaScript</li>
+                    </ul>
+                  </li>
+
+                  <li class="skills-item">
+                    <button
+                      type="button"
+                      class="skills-name"
+                      aria-expanded="false"
+                      aria-controls="skills-lang"
+                    >
+                      Languages
+                    </button>
+                    <ul
+                      id="skills-lang"
+                      class="skills-sublist"
+                      role="region"
+                      aria-label="Languages"
+                    >
+                      <li>English</li>
+                      <li>Chinese (Mandarin)</li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+    <!-- Projects -->
+    <section id="projects" class="py-5 bg-body-tertiary">
+      <div class="container">
+        <div class="d-flex align-items-baseline justify-content-between mb-3">
+          <h2 class="h4 mb-0">Projects</h2>
+        </div>
+
+        <div class="row g-4">
+          <!-- Project 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm position-relative project-card">
+              <div class="card-body">
+                <h3 class="h6 card-title mb-1">
+                  Cloud Data Mart (Independent)
+                </h3>
+                <div class="text-body-secondary small mb-2">Jan–May 2025</div>
+                <p class="card-text small">
+                  Built a cloud MySQL data mart with a star schema to unify two
+                  SQLite systems for cross-department sales analysis. Mapped
+                  music & film business logic, then ran staged R/SQL ETL on
+                  ~160k rows with 1k-row batches. Automated R Markdown reporting
+                  cut a 4-hour cycle to under five minutes.
+                </p>
+                <div class="d-flex flex-wrap gap-2 small">
+                  <span class="badge text-bg-light border">MySQL</span>
+                  <span class="badge text-bg-light border">SQLite</span>
+                  <span class="badge text-bg-light border">R</span>
+                  <span class="badge text-bg-light border">SQL</span>
+                  <span class="badge text-bg-light border">R Markdown</span>
+                  <span class="badge text-bg-light border">ETL</span>
+                  <span class="badge text-bg-light border">Star Schema</span>
+                </div>
+                <a
+                  class="stretched-link"
+                  href="files/data_mart.pdf"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="Open Cloud Data Mart project PDF"
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm position-relative project-card">
+              <div class="card-body">
+                <h3 class="h6 card-title mb-1">Mobile App: Restroom Finder</h3>
+                <div class="text-body-secondary small mb-2">
+                  Team Lead · Sep–Dec 2024 · Boston, MA
+                </div>
+                <p class="card-text small">
+                  Led a full-stack iOS project from discovery to deployment.
+                  Designed a two-step flow in Figma, built a multi-screen app
+                  with a user-contributed data model and flagging, and
+                  implemented backend support for geotagged content. Integrated
+                  Firebase for auth, real-time sync, and cloud data, iterating
+                  through testing.
+                </p>
+                <div class="d-flex flex-wrap gap-2 small">
+                  <span class="badge text-bg-light border">iOS</span>
+                  <span class="badge text-bg-light border">Firebase</span>
+                  <span class="badge text-bg-light border">Figma</span>
+                  <span class="badge text-bg-light border">Geolocation</span>
+                  <span class="badge text-bg-light border">UX</span>
+                </div>
+                <a
+                  class="stretched-link"
+                  href="files/mobile_app.pdf"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="Open Restroom Finder project PDF"
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 (this website) -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm position-relative project-card">
+              <div class="card-body">
+                <h3 class="h6 card-title mb-1">
+                  Personal Homepage (This Site)
+                </h3>
+                <div class="text-body-secondary small mb-2">2025</div>
+                <p class="card-text small">
+                  Two-page responsive site with Bootstrap 5: sticky header, hero
+                  banner, 8–4 layout with an overlap card, semantic accordions
+                  for Education & Experience, and a secondary page featuring a
+                  scroll-snapping parallax gallery with right-aligned square
+                  content cards. Modular CSS and accessible, standards-based
+                  markup throughout.
+                </p>
+                <div class="d-flex flex-wrap gap-2 small">
+                  <span class="badge text-bg-light border">HTML5</span>
+                  <span class="badge text-bg-light border">CSS3</span>
+                  <span class="badge text-bg-light border">Bootstrap 5</span>
+                  <span class="badge text-bg-light border">JavaScript</span>
+                  <span class="badge text-bg-light border">Accessibility</span>
+                  <span class="badge text-bg-light border">Scroll Snap</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

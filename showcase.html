@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Shaobo Chen — Showcase</title>
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body class="showcase">
+    <!-- Top header + nav -->
+    <header class="bg-body border-bottom">
+      <div class="container py-3 d-flex flex-column align-items-center">
+        <h1 class="fs-2 fw-semibold lh-1 m-0 text-center">Shaobo Chen</h1>
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container d-flex flex-column align-items-center px-0">
+            <button
+              class="navbar-toggler mt-2"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navShowcase"
+              aria-controls="navShowcase"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-center"
+              id="navShowcase"
+            >
+              <ul class="navbar-nav text-center">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="secondary.html">Another me</a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="showcase.html"
+                    >Showcase</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero spotlight -->
+    <section class="hero-spotlight text-white">
+      <img
+        class="hero-bg"
+        src="images/AIG01.png"
+        alt="Abstract technology banner with geometric shapes"
+      />
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <div class="row align-items-center">
+          <div class="col-12 col-lg-7">
+            <h2 class="display-6 fw-semibold mb-2">
+              CS & Information Science @ Northeastern (GPA 4.0)
+            </h2>
+            <p class="lead mb-3">
+              I build data-driven systems and user-facing apps. Recent work: a
+              cloud MySQL data mart unifying two sources (~160k rows) and a
+              shipped iOS app with Firebase.
+            </p>
+            <figure class="m-0 small motto-in-hero">
+              <blockquote class="mb-1 fst-italic">
+                “When you're playing the point, it has to be the most important
+                thing in the world. And when it's behind you, it's behind you.”
+              </blockquote>
+              <figcaption class="text-end">— Roger Federer</figcaption>
+            </figure>
+          </div>
+          <div class="col-12 col-lg-5">
+            <div class="stats card shadow-sm">
+              <div class="card-body d-grid stats-grid">
+                <div class="stat">
+                  <div class="stat-value">4.0</div>
+                  <div class="stat-label">GPA (M.S.)</div>
+                </div>
+                <div class="stat">
+                  <div class="stat-value">160k+</div>
+                  <div class="stat-label">Rows ETL’d</div>
+                </div>
+                <div class="stat">
+                  <div class="stat-value">5+</div>
+                  <div class="stat-label">Products Analyzed</div>
+                </div>
+                <div class="stat">
+                  <div class="stat-value">40+</div>
+                  <div class="stat-label">Tax Drafts (CCH)</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- row -->
+      </div>
+    </section>
+
+    <!-- Projects (cards) -->
+    <section id="projects" class="py-5 bg-body-tertiary">
+      <div class="container">
+        <div class="d-flex align-items-baseline justify-content-between mb-3">
+          <h2 class="h4 mb-0">Projects</h2>
+        </div>
+        <div class="row g-4">
+          <!-- P1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm position-relative project-card">
+              <div class="card-body">
+                <h3 class="h6 card-title mb-1">
+                  Cloud Data Mart (Independent)
+                </h3>
+                <div class="text-body-secondary small mb-2">Jan–May 2025</div>
+                <p class="card-text small">
+                  Built a cloud MySQL data mart with a star schema to unify two
+                  SQLite systems for cross-department sales analysis. Mapped
+                  music & film logic; staged R/SQL ETL on ~160k rows (1k-row
+                  batches). Automated R Markdown reports, cutting a 4-hour cycle
+                  to under five minutes.
+                </p>
+                <div class="d-flex flex-wrap gap-2 small">
+                  <span class="badge text-bg-light border">MySQL</span>
+                  <span class="badge text-bg-light border">SQLite</span>
+                  <span class="badge text-bg-light border">R</span>
+                  <span class="badge text-bg-light border">SQL</span>
+                  <span class="badge text-bg-light border">R Markdown</span>
+                  <span class="badge text-bg-light border">ETL</span>
+                  <span class="badge text-bg-light border">Star Schema</span>
+                </div>
+                <a
+                  class="stretched-link"
+                  href="files/data_mart.pdf"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="Open Cloud Data Mart PDF"
+                ></a>
+              </div>
+            </div>
+          </div>
+          <!-- P2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm position-relative project-card">
+              <div class="card-body">
+                <h3 class="h6 card-title mb-1">Mobile App: Restroom Finder</h3>
+                <div class="text-body-secondary small mb-2">
+                  Team Lead · Sep–Dec 2024 · Boston, MA
+                </div>
+                <p class="card-text small">
+                  Led a full-stack iOS app from discovery to deployment.
+                  Two-step flow in Figma; multi-screen app with user-contributed
+                  locations & flagging. Designed the backend, integrated
+                  Firebase auth, realtime sync, and cloud storage; iterated with
+                  testing.
+                </p>
+                <div class="d-flex flex-wrap gap-2 small">
+                  <span class="badge text-bg-light border">iOS</span>
+                  <span class="badge text-bg-light border">Firebase</span>
+                  <span class="badge text-bg-light border">Figma</span>
+                  <span class="badge text-bg-light border">Geolocation</span>
+                  <span class="badge text-bg-light border">UX</span>
+                </div>
+                <a
+                  class="stretched-link"
+                  href="files/mobile_app.pdf"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="Open Restroom Finder PDF"
+                ></a>
+              </div>
+            </div>
+          </div>
+          <!-- P3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm position-relative project-card">
+              <div class="card-body">
+                <h3 class="h6 card-title mb-1">
+                  Personal Homepage (This Site)
+                </h3>
+                <div class="text-body-secondary small mb-2">2025</div>
+                <p class="card-text small">
+                  Two-page responsive site with Bootstrap 5: sticky header, hero
+                  banner, 8–4 layout with an overlap card, semantic accordions
+                  for Education & Experience, and a secondary page with a
+                  scroll-snapping parallax gallery. Modular CSS and accessible
+                  markup.
+                </p>
+                <div class="d-flex flex-wrap gap-2 small">
+                  <span class="badge text-bg-light border">HTML5</span>
+                  <span class="badge text-bg-light border">CSS3</span>
+                  <span class="badge text-bg-light border">Bootstrap 5</span>
+                  <span class="badge text-bg-light border">JavaScript</span>
+                  <span class="badge text-bg-light border">Accessibility</span>
+                  <span class="badge text-bg-light border">Scroll Snap</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- row -->
+      </div>
+    </section>
+
+    <!-- Education & Experience Timeline -->
+    <section class="py-5">
+      <div class="container">
+        <h2 class="h4 mb-4">Education & Experience</h2>
+        <ol class="timeline">
+          <!-- EDU: HS -->
+          <li class="timeline-item">
+            <div class="timeline-point"></div>
+            <div class="timeline-card card shadow-sm">
+              <div class="card-body">
+                <h3 class="h6 mb-1">
+                  No. 2 High School of East China Normal University
+                </h3>
+                <div class="text-body-secondary small mb-2">
+                  High School · Shanghai, China · Graduated 2017
+                </div>
+                <ul class="small mb-0 ps-3">
+                  <li>BIG12 BMW Cup Basketball League — Runner-up</li>
+                  <li>Campus Singing Competition — 2nd Place</li>
+                  <li>Tennis Club – Team Leader</li>
+                  <li>Outstanding Graduate</li>
+                </ul>
+              </div>
+            </div>
+          </li>
+
+          <!-- EDU: NEU BS -->
+          <li class="timeline-item">
+            <div class="timeline-point"></div>
+            <div class="timeline-card card shadow-sm">
+              <div class="card-body">
+                <h3 class="h6 mb-1">
+                  Northeastern University — B.S. in Business Administration
+                </h3>
+                <div class="text-body-secondary small mb-2">
+                  Boston, MA · GPA: 3.62
+                </div>
+                <div class="small"><strong>Main Courses:</strong></div>
+                <ul class="small mb-0 ps-3">
+                  <li>Management Consulting in Organizations</li>
+                  <li>Managing Human Capital</li>
+                  <li>Understand Family Enterprise</li>
+                  <li>Entrepreneurship Seminar</li>
+                  <li>Marketing Strategies for Startups</li>
+                  <li>Health Care Management, Innovation, and Design</li>
+                </ul>
+              </div>
+            </div>
+          </li>
+
+          <!-- EDU: NEU MS -->
+          <li class="timeline-item">
+            <div class="timeline-point"></div>
+            <div class="timeline-card card shadow-sm">
+              <div class="card-body">
+                <h3 class="h6 mb-1">
+                  Northeastern University — M.S. in Computer & Information
+                  Science
+                </h3>
+                <div class="text-body-secondary small mb-2">
+                  Boston, MA · GPA: 4.0
+                </div>
+                <div class="small"><strong>Main Courses:</strong></div>
+                <ul class="small mb-0 ps-3">
+                  <li>Algorithms</li>
+                  <li>Website Development</li>
+                  <li>Data Science Management Systems</li>
+                  <li>Mobile Application Development</li>
+                </ul>
+              </div>
+            </div>
+          </li>
+
+          <!-- EXP: JG Baffo -->
+          <li class="timeline-item">
+            <div class="timeline-point"></div>
+            <div class="timeline-card card shadow-sm">
+              <div class="card-body">
+                <h3 class="h6 mb-1">JG Baffo — CPA Firm</h3>
+                <div class="text-body-secondary small mb-2">
+                  Accountant Assistant · Boston, MA · Jan–Apr 2020
+                </div>
+                <ul class="small mb-0 ps-3">
+                  <li>
+                    Reconciled client records and filed tax returns using CCH
+                    ProFx.
+                  </li>
+                  <li>
+                    Prepared drafts for 40+ clients (S-Corps, Partnerships,
+                    Individuals); advised on structures & tax planning.
+                  </li>
+                  <li>
+                    Monthly bookkeeping in QuickBooks: financials, transaction
+                    categorization, invoice/payment reconciliation, recurring
+                    tasks.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+
+          <!-- EXP: Smith & Nephew -->
+          <li class="timeline-item">
+            <div class="timeline-point"></div>
+            <div class="timeline-card card shadow-sm">
+              <div class="card-body">
+                <h3 class="h6 mb-1">Smith & Nephew — Medical Equipment Firm</h3>
+                <div class="text-body-secondary small mb-2">
+                  Human Resource Intern · Shanghai, China · Jul–Dec 2021
+                </div>
+                <ul class="small mb-0 ps-3">
+                  <li>
+                    Coordinated Fall 2021 campus recruitment; hired 40+ interns;
+                    refined process & assessments.
+                  </li>
+                  <li>Streamlined onboarding and led induction training.</li>
+                  <li>
+                    Cut pre-onboarding from 3 months to 1 month by leveraging
+                    Workday; reduced manual data errors.
+                  </li>
+                  <li>
+                    Re-designed process to address high pandemic-period
+                    turnover.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+
+          <!-- EXP: Yidu Cloud -->
+          <li class="timeline-item">
+            <div class="timeline-point"></div>
+            <div class="timeline-card card shadow-sm">
+              <div class="card-body">
+                <h3 class="h6 mb-1">
+                  Yidu Cloud Technology — Healthcare Big Data Firm
+                </h3>
+                <div class="text-body-secondary small mb-2">
+                  Data Analysis Intern, RWE Dept. · Shanghai, China · May–Jul
+                  2025
+                </div>
+                <ul class="small mb-0 ps-3">
+                  <li>
+                    Tracked marketed drugs across awareness, message recall,
+                    visit frequency; analyzed HCP behaviors.
+                  </li>
+                  <li>
+                    Translated guidelines into data rules for screening &
+                    inclusion/exclusion funnels.
+                  </li>
+                  <li>
+                    Co-designed filtering logic meeting sponsor clinical
+                    criteria.
+                  </li>
+                  <li>
+                    Processed & visualized thousands of records to drive
+                    strategy for 5+ marketed products.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Skills (matrix) -->
+    <section class="py-5 bg-body-tertiary">
+      <div class="container">
+        <h2 class="h4 mb-4">Skills</h2>
+        <div class="row g-3">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card shadow-sm h-100">
+              <div class="card-body">
+                <h3 class="h6 mb-3">General</h3>
+                <div class="d-flex flex-wrap gap-2">
+                  <span class="badge text-bg-light border">MS Word</span>
+                  <span class="badge text-bg-light border">PowerPoint</span>
+                  <span class="badge text-bg-light border">Excel</span>
+                  <span class="badge text-bg-light border">Tableau</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card shadow-sm h-100">
+              <div class="card-body">
+                <h3 class="h6 mb-3">Accounting</h3>
+                <div class="d-flex flex-wrap gap-2">
+                  <span class="badge text-bg-light border">QuickBooks</span>
+                  <span class="badge text-bg-light border">CCH ProFx</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card shadow-sm h-100">
+              <div class="card-body">
+                <h3 class="h6 mb-3">Human Resources</h3>
+                <div class="d-flex flex-wrap gap-2">
+                  <span class="badge text-bg-light border">Workday</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card shadow-sm h-100">
+              <div class="card-body">
+                <h3 class="h6 mb-3">Data Science</h3>
+                <div class="d-flex flex-wrap gap-2">
+                  <span class="badge text-bg-light border">R</span>
+                  <span class="badge text-bg-light border">SQL</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card shadow-sm h-100">
+              <div class="card-body">
+                <h3 class="h6 mb-3">Computer Science</h3>
+                <div class="d-flex flex-wrap gap-2">
+                  <span class="badge text-bg-light border">Python</span>
+                  <span class="badge text-bg-light border">Java</span>
+                  <span class="badge text-bg-light border">C++</span>
+                  <span class="badge text-bg-light border">JavaScript</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card shadow-sm h-100">
+              <div class="card-body">
+                <h3 class="h6 mb-3">Languages</h3>
+                <div class="d-flex flex-wrap gap-2">
+                  <span class="badge text-bg-light border">English</span>
+                  <span class="badge text-bg-light border"
+                    >Chinese (Mandarin)</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- row -->
+      </div>
+    </section>
+
+    <footer class="site-footer bg-body-tertiary border-top py-3">
+      <div class="container text-center">
+        <span class="small text-body-secondary">
+          © 2025 <strong>Shaobo Chen</strong> · Built with HTML5, CSS3,
+          Bootstrap 5, and vanilla JS.
+        </span>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
