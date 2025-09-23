@@ -98,7 +98,7 @@ Settings → Pages → Source: “Deploy from a branch” · Branch: main · Fol
 
 Your site will be at: https://gideonccc.github.io/Shaobo_Homepage/
 
-(For a profile site, name the repo <your-username>.github.io> to get https://<your-username>.github.io/.)
+
 
 ✨ Features
 
@@ -118,17 +118,14 @@ Modular CSS, semantic HTML, and alt text for images
 
 Shaobo Chen
 
-Homepage: https://your-username.github.io/your-repo/
-(update with your real URL)
+https://gideonccc.github.io/Shaobo_Homepage/(update with your real URL)
 
-LinkedIn: https://www.linkedin.com/in/your-handle/
-(optional)
 
 🎓 Class Reference
 
 CS5610 Web Development — Northeastern University
-Class link: https://example.edu/your-class-link
-(replace with your actual class page URL)
+Class link: [https://example.edu/your-class-link](https://johnguerra.co/classes/webDevelopment_online_fall_2025/)
+
 
 🤖 AI-Generated Content Disclosure
 
