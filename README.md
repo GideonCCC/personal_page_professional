@@ -3,7 +3,7 @@ Shaobo Chen — Personal Homepage & Showcase
 A fast, accessible, recruiter-friendly personal site built with HTML5, CSS3, Bootstrap 5, and vanilla ES Modules.
 Includes a parallax photo gallery, education/experience accordions, projects with colorful skill badges, and a separate showcase layout.
 
-Demo: (optional) https://your-username.github.io/your-repo/
+Demo: https://gideonccc.github.io/Shaobo_Homepage
 
 Homepage: index.html · Gallery: secondary.html · Showcase: showcase.html
 
@@ -126,7 +126,7 @@ Modular CSS, semantic HTML, and alt text for images
 
 Shaobo Chen
 
-https://gideonccc.github.io/Shaobo_Homepage/(update with your real URL)
+https://gideonccc.github.io/Shaobo_Homepage
 
 
 🎓 Class Reference
