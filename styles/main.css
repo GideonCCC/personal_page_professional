@@ -10,6 +10,8 @@
 html {
   scroll-behavior: smooth;
   height: 100%;
+  /* Scale down overall typography proportionally */
+  font-size: 90%;
 }
 
 body {
@@ -40,9 +42,25 @@ body {
 }
 
 /* Custom column widths for centered layout */
-.col-lg-2\.5 {
-  flex: 0 0 20.833333%;
-  max-width: 20.833333%;
+/* Custom fractional columns */
+.col-lg-1\.5 {
+  flex: 0 0 12.5%; /* 1.5/12 */
+  max-width: 12.5%;
+}
+
+.col-lg-3\.5 {
+  flex: 0 0 29.166667%; /* 3.5/12 */
+  max-width: 29.166667%;
+}
+
+.col-lg-4\.5 {
+  flex: 0 0 37.5%; /* 4.5/12 */
+  max-width: 37.5%;
+}
+
+.col-lg-5 {
+  flex: 0 0 41.666667%; /* 5/12 */
+  max-width: 41.666667%;
 }
 
 .col-lg-3 {
@@ -63,7 +81,7 @@ body {
   height: 100vh;
   overflow-y: auto;
   overflow-x: hidden;
-  border-right: 1px solid #e5e5e5;
+  border-right: none;
   position: relative;
   /* Hide scrollbar for Chrome, Safari and Opera */
   scrollbar-width: none; /* Firefox */
